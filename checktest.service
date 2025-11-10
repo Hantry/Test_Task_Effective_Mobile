@@ -1,0 +1,12 @@
+[Unit]
+Description = Process Vertification service - "Test"
+
+[Service]
+Type = oneshot
+ExecStart = /usr/local/bin/check_test.sh
+User = root
+Restart = on-failure
+RestartSec = 5s
+
+[Install]
+WantedBy = multi-user.target
