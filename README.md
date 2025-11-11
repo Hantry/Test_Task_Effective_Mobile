@@ -33,3 +33,17 @@
    sudo chmod +x setup.sh
    sudo ./setup.sh
    ```
+## Настройка мониторинга
+
+1. **Откройте скрипт** check_test.sh:
+
+   ```bash
+   nano check_test.sh
+   ```
+
+2. **Укажите отслеживаемый процесс и URL сервера мониторинга**:
+
+   '''bash
+   PROCESS_NAME="test"
+   MONITORING_URL="https://test.com/monitoring/test/api"
+   ```
