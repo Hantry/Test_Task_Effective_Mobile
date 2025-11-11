@@ -43,7 +43,7 @@
 
 2. **Укажите отслеживаемый процесс и URL сервера мониторинга**:
 
-   '''bash
+    ```bash
    PROCESS_NAME="test"
    MONITORING_URL="https://test.com/monitoring/test/api"
    ```
